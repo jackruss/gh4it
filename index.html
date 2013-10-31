@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Fun Friday Tech Talk - Git/Github 101</title>
+
+    <meta name="description" content="Git/Github more than a code repo">
+    <meta name="author" content="Tom Wilson">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h1>Git/Github 101</h1>
+          <h3>More than Code Storage</h3>
+          <p>
+            <small>Created by <a href="http://twilson63.com">Tom Wilson</a> / <a href="http://twitter.com/twilson63">@twilson63</a></small>
+          </p>
+        </section>
+        <section>
+          <h2>On Tap</h2>
+          <ul>
+            <li>What is Git?</li>
+            <li>What is Github?</li>
+            <li>Why should we use it for IT Documentation?</li>
+          </ul>
+        </section>
+
+        <!-- Example of nested vertical slides -->
+        <section>
+          <section>
+            <h2>What is Git?</h2>
+          </section>
+          <section>
+            <h2>Distributed Version Control</h2>
+            <img src="git-dist.png" />
+          </section>
+          <section>
+            <h2>Old School</h2>
+            <img src="old-school.png" />
+          </section>
+          <section>
+            <h2>Central</h2>
+            <img src="central.png" />
+          </section>
+          <section>
+            <h2>Distributed</h2>
+            <img src="git-dist.png" />
+          </section>
+          <section>
+            <h2>History</h2>
+            <img src="http://linus-torvalds.jpg.to" />
+            <ul>
+              <li>Born 2005</li>
+              <li>Speed</li>
+              <li>Simple design</li>
+              <li>Strong support of linear Development</li>
+              <li>Fully Distributed</li>
+              <li>Able to handle large projects</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Warning</h2>
+            <img src="http://cute-kittens.jpg.to"></img>
+          </section>
+          <section>
+            <p>Git thinks of its data more like a set of snapshots of a mini filesystem</p>
+            <img src="git-fs" />
+          </section>
+          <section>
+            <p>The mechanism that Git uses for this checksumming is called a SHA-1 hash. This is a 40-character string composed of hexadecimal characters (0–9 and a–f) and calculated based on the contents of a file or directory structure in Git. A SHA-1 hash looks something like this:</p>
+            <pre><code>24b9da6552252987aa493b52f8696cd6d3b00373</code></pre>
+          </section>
+          <section>
+            <h3>3 States</h3>
+            <img src="three-states.png" />
+          </section>
+          <section>
+            <h3>Commands</h3>
+            <ul>
+              <li>Init</li>
+              <li>Add</li>
+              <li>Commit</li>
+              <li>Push</li>
+              <li>Clone</li>
+              <li>Pull</li>
+              <li>Checkout</li>
+              <li>Log</li>
+              <li>Status</li>
+              <li>Remote</li>
+              <li>Tag</li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>What is Github?</h2>
+            <img src="http://octocat.jpg.to" />
+          </section>
+          <section>
+            <p>You may have heard that GitHub is a code sharing and publishing service, or that it’s a social networking site for programmers. Both statements are true, but neither explain exactly why GitHub is special.</p>
+            <p>TechCrunch</p>
+            <p><a href="http://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/">http://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/</a></p>
+          </section>
+          <section>
+            <p>git + social = github</p>
+            <p>or</p>
+            <p>git + collaboration = github</p>
+          </section>
+          <section>
+            <img src="gh-profile.png" />
+          </section>
+          <section>
+            <img src="feed.png" />
+          </section>
+          <section>
+            <img src="repo.png" />
+          </section>
+          <section>
+            <img src="issues.png" />
+          </section>
+          <section>
+            <img src="centralized-github-4.png" />
+          </section>
+          <section>
+            <h2>Windows Client</h2>
+            <a href="http://windows.github.com">http://windows.github.com</a>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Why use Github for IT Documentation?</h2>
+          </section>
+          <section>
+            <ul>
+              <li>Idea</li>
+              <li>Collaboration</li>
+              <li>Ship</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Demo</h2>
+          </section>
+        </section>
+        <section>
+          <h2>Thank You</h2>
+        </section>
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
